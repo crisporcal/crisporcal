@@ -1,4 +1,3 @@
-<!-- Encabezado animado -->
 <h1 align="center">👋 ¡Hola! Soy Cristhian Eduardo Pereira Porcal</h1>
 <h3 align="center">Ingeniero Mecatrónico | Full Stack Developer | RPA & AI Engineer</h3>
 
@@ -35,7 +34,13 @@
 ## 📊 Estadísticas y actividad
 ![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=crisporcal&show_icons=true&theme=tokyonight)  
 ![Lenguajes principales](https://github-readme-stats.vercel.app/api/top-langs/?username=crisporcal&layout=compact&theme=tokyonight)  
-![Actividad reciente](https://github-readme-activity-graph.vercel.app/graph?username=crisporcal&theme=tokyo-night)
+![Gráfico de actividad](https://github-readme-activity-graph.vercel.app/graph?username=crisporcal&theme=tokyo-night)
+
+---
+
+## 📜 Última actividad
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
 ---
 
@@ -45,4 +50,4 @@
 
 ---
 
-*README generado dinámicamente con ❤️ usando GitHub Actions*
+*Este README se actualiza automáticamente con GitHub Actions cada 24 horas.*
