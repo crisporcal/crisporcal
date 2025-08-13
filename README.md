@@ -1,4 +1,4 @@
-<h1 align="center">👋 ¡Hola! Soy Cristhian Eduardo Pereira Porcal</h1>
+<h1 align="center">👋 ¡Hola! Soy Cristhian Pereira Porcal</h1>
 <h3 align="center">Ingeniero Mecatrónico | Full Stack Developer | RPA & AI Engineer</h3>
 
 ---
