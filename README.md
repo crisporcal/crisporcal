@@ -26,7 +26,7 @@
 
 ## 📌 Proyectos Destacados
 - **[RPA Orchestrator](https://github.com/crisporcal/rpa-orchestrator)** → Automatización bancaria que redujo procesos de días a minutos.
-- **Vision AI ESSAP** → Reconocimiento facial, detección de matrículas y zonas restringidas.
+- **Vision AI** → Reconocimiento facial, detección de matrículas y zonas restringidas.
 - **Factura Electrónica** → Generación masiva de 325k facturas electrónicas.
 
 ---
