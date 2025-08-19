@@ -24,13 +24,6 @@
 
 ---
 
-## 📌 Proyectos Destacados
-- **[RPA Orchestrator](https://github.com/crisporcal/rpa-orchestrator)** → Automatización bancaria que redujo procesos de días a minutos.
-- **Vision AI** → Reconocimiento facial, detección de matrículas y zonas restringidas.
-- **Factura Electrónica** → Generación masiva de 325k facturas electrónicas.
-
----
-
 ## 📊 Estadísticas y actividad
 ![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=crisporcal&show_icons=true&theme=tokyonight)  
 ![Lenguajes principales](https://github-readme-stats.vercel.app/api/top-langs/?username=crisporcal&layout=compact&theme=tokyonight)  
