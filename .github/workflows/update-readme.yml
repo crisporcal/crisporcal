@@ -1,17 +1,21 @@
-name: Update README with GitHub Activity
+name: Actualizar actividad reciente en README
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */6 * * *"  # cada 6 horas
   workflow_dispatch:
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
 
-      - name: Actualizar actividad reciente
-        uses: jamesgeorge007/github-activity-readme@v0.3.6
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Actualizar actividad en README
+        uses: Readme-Workflows/recent-activity@v1.0.0
+        with:
+          github_token: ${{ secrets.PAT_TOKEN }}
+          username: crisporcal
+          commit_message: "⚡ Actualizar actividad reciente"
+          max_days: 30
