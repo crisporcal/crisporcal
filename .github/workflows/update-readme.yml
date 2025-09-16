@@ -7,7 +7,7 @@ on:
 
 permissions:
   contents: write
-  
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,5 +18,5 @@ jobs:
         uses: jamesgeorge007/github-activity-readme@v0.3.6
         with:
           COMMIT_MSG: "⚡ Update README with the recent activity"
-        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
