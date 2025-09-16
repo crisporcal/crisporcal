@@ -3,10 +3,10 @@ name: Update README with GitHub Activity
 on:
   schedule:
     - cron: "0 0 * * *" # cada 24 horas (a medianoche UTC)
-  workflow_dispatch: # para correrlo manualmente desde la pestaña Actions
+  workflow_dispatch:
 
 permissions:
-  contents: write # necesario para que el GITHUB_TOKEN pueda commitear cambios
+  contents: write
 
 jobs:
   build:
@@ -16,6 +16,5 @@ jobs:
 
       - name: Actualizar actividad reciente
         uses: jamesgeorge007/github-activity-readme@v0.3.6
-        with:
-          COMMIT_MSG: "⚡ Update README with the recent activity"
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
