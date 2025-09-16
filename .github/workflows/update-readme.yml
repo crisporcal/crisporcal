@@ -2,7 +2,7 @@ name: Update GitHub Activity in README
 
 on:
   schedule:
-    - cron: "0 0 * * *" # cada 24 horas UTC
+    - cron: "0 */6 * * *" # cada 6 horas
   workflow_dispatch:
 
 jobs:
@@ -12,10 +12,10 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Update activity
+      - name: Update activity in README
         uses: abhisheknaiidu/activity-readme@v2.0.0
         with:
           github_token: ${{ secrets.PAT_TOKEN }}
           username: crisporcal
-          commit_message: "⚡ Update README activity"
+          commit_message: "⚡ Update GitHub activity"
           max_days: 30
